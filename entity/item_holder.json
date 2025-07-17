@@ -12,10 +12,15 @@
       "geometry": {
         "default": "geometry.item_holder"
       },
+      "scripts": {
+        "scale": "q.property('pokeb:scale')"
+      },
       "animations": {
         "shake": "animation.item_holder.shake"
       },
-      "render_controllers": ["controller.render.default"],
+      "render_controllers": [
+        "controller.render.default"
+      ],
       "enable_attachables": false
     }
   }
