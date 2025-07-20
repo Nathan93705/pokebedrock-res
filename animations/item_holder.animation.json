@@ -13,6 +13,14 @@
 					}
 				}
 			}
+		},
+		"animation.item_holder.idle": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": ["q.property('pokeb:rotation_x')+88", "q.property('pokeb:rotation_y')", "q.property('pokeb:rotation_z')+206"]
+				}
+			}
 		}
 	}
 }

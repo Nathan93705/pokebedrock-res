@@ -13,15 +13,19 @@
         "default": "geometry.item_holder"
       },
       "scripts": {
-        "scale": "q.property('pokeb:scale')"
+        "scale": "q.property('pokeb:scale')",
+        "animate": [
+          "idle"
+        ]
       },
       "animations": {
-        "shake": "animation.item_holder.shake"
+        "shake": "animation.item_holder.shake",
+        "idle": "animation.item_holder.idle"
       },
       "render_controllers": [
         "controller.render.default"
       ],
-      "enable_attachables": false
+      "enable_attachables": true
     }
   }
 }
