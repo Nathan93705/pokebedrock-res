@@ -20,7 +20,8 @@
             },
             "animations": {
                 "controller": "controller.animation.containment_chamber",
-                "water_fill": "animation.containment_chamber.water_fill",
+                "empty": "animation.containment_chamber.empty",
+                "filling": "animation.containment_chamber.filling",
                 "breaking": "animation.containment_chamber.breaking",
                 "opening": "animation.containment_chamber.opening",
                 "opening_ditto": "animation.containment_chamber.opening_ditto",

@@ -2,13 +2,38 @@
     "format_version": "1.18.3",
     "animation_controllers": {
         "controller.animation.containment_chamber": {
-            "initial_state": "water_fill",
+            "initial_state": "empty",
             "states": {
-                "water_fill": {
+                "empty": {
                     "animations": [
-                        "water_fill"
+                        "empty"
                     ],
                     "transitions": [
+                        {
+                            "filling": "q.property('pokeb:state') == 'filling'"
+                        },
+                        {
+                            "breaking": "q.property('pokeb:state') == 'breaking'"
+                        },
+                        {
+                            "opening": "q.property('pokeb:state') == 'opening'"
+                        },
+                        {
+                            "opening_ditto": "q.property('pokeb:state') == 'opening_ditto'"
+                        },
+                        {
+                            "closing": "q.property('pokeb:state') == 'closing'"
+                        }
+                    ]
+                },
+                "filling": {
+                    "animations": [
+                        "filling"
+                    ],
+                    "transitions": [
+                        {
+                            "empty": "q.property('pokeb:state') == 'empty'"
+                        },
                         {
                             "breaking": "q.property('pokeb:state') == 'breaking'"
                         },
@@ -29,7 +54,10 @@
                     ],
                     "transitions": [
                         {
-                            "water_fill": "q.property('pokeb:state') == 'water_fill'"
+                            "empty": "q.property('pokeb:state') == 'empty'"
+                        },
+                        {
+                            "filling": "q.property('pokeb:state') == 'filling'"
                         },
                         {
                             "opening": "q.property('pokeb:state') == 'opening'"
@@ -48,7 +76,10 @@
                     ],
                     "transitions": [
                         {
-                            "water_fill": "q.property('pokeb:state') == 'water_fill'"
+                            "empty": "q.property('pokeb:state') == 'empty'"
+                        },
+                        {
+                            "filling": "q.property('pokeb:state') == 'filling'"
                         },
                         {
                             "breaking": "q.property('pokeb:state') == 'breaking'"
@@ -67,7 +98,10 @@
                     ],
                     "transitions": [
                         {
-                            "water_fill": "q.property('pokeb:state') == 'water_fill'"
+                            "empty": "q.property('pokeb:state') == 'empty'"
+                        },
+                        {
+                            "filling": "q.property('pokeb:state') == 'filling'"
                         },
                         {
                             "breaking": "q.property('pokeb:state') == 'breaking'"
@@ -86,7 +120,10 @@
                     ],
                     "transitions": [
                         {
-                            "water_fill": "q.property('pokeb:state') == 'water_fill'"
+                            "empty": "q.property('pokeb:state') == 'empty'"
+                        },
+                        {
+                            "filling": "q.property('pokeb:state') == 'filling'"
                         },
                         {
                             "breaking": "q.property('pokeb:state') == 'breaking'"

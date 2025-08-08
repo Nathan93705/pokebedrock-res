@@ -15,15 +15,15 @@
             "scripts": {
                 "scale": "0.75",
                 "pre_animation": [
-                    "variable.potion_amount = q.property('pokeb:potion_amount');",
-                    "variable.has_liquid = q.property('pokeb:has_liquid');"
+                    "variable.potion_amount = query.property('pokeb:potion_amount');",
+                    "variable.liquid_amount = query.property('pokeb:liquid_amount');"
                 ],
                 "animate": [
-                    "default"
+                    "idle"
                 ]
             },
             "animations": {
-                "default": "animation.cooling_station.idle"
+                "idle": "animation.cooling_station.idle"
             },
             "render_controllers": [
                 "controller.render.default"
