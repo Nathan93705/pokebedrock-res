@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.neona.idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"root": {
+					"rotation": [0, 57.5, 0]
+				},
+				"Body": {
+					"rotation": ["12.5+Math.cos((query.anim_time) *90*2-90)*5", 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-90, 32.5, "-89.9999977386+Math.cos((query.anim_time) *90*2-90)*-10"],
+					"position": [1, -1, 2]
+				},
+				"RightArm": {
+					"rotation": [-90, "12.5+Math.cos((query.anim_time) *90*2-90)*-2.5", "89.9999982527+Math.cos((query.anim_time) *90*2-90)*10"],
+					"position": [0, -1, 0]
+				},
+				"Head": {
+					"rotation": ["-5+Math.cos((query.anim_time) *90*2-90)*-10", -45, "7.5+Math.cos((query.anim_time) *90*2-90)*10"]
+				},
+				"LeftLeg": {
+					"rotation": ["22.5+Math.cos((query.anim_time) *90*2-90)*-2", 0, 0],
+					"position": [0, "3+Math.cos((query.anim_time) *90*2-90)*-1", -4]
+				},
+				"tail": {
+					"rotation": ["-5+Math.cos((query.anim_time) *90*2-90)*10", 0, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokeb:arcade_machines.voltorb_drop",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "default": "textures/entity/arcade_machines/voltorb_drop.png"
+      },
+      "geometry": {
+        "default": "geometry.arcade_machine_3"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture": "arcade_machine_voltorb_drop",
+        "texture_index": 0
+      }
+    }
+  }
+}

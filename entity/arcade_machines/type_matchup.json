@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokeb:arcade_machines.type_matchup",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "default": "textures/entity/arcade_machines/type_matchup.png"
+      },
+      "geometry": {
+        "default": "geometry.arcade_machine_2"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture": "arcade_machine_type_matchup",
+        "texture_index": 0
+      }
+    }
+  }
+}

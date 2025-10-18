@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokeb:neona",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "default": "textures/entity/neona"
+      },
+      "geometry": {
+        "default": "geometry.neona"
+      },
+      "scripts": {
+        "animate": ["idle"]
+      },
+      "animations": {
+        "idle": "animation.neona.idle"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture": "neona_spawn_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

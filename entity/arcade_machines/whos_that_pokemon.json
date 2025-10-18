@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokeb:arcade_machines.whos_that_pokemon",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "default": "textures/entity/arcade_machines/whos_that_pokemon.png"
+      },
+      "geometry": {
+        "default": "geometry.arcade_machine_1"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture": "arcade_machine_whos_that_pokemon",
+        "texture_index": 0
+      }
+    }
+  }
+}

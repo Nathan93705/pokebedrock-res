@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokeb:arcade_machines.evolution_chain",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "default": "textures/entity/arcade_machines/evolution_chain.png"
+      },
+      "geometry": {
+        "default": "geometry.arcade_machine_1"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture": "arcade_machine_evolution_chain",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -310,6 +310,24 @@
     "xs_exp_candy": {
       "textures": "textures/items/candies/xs_exp_candy"
     },
+    "arcade_machine_type_matchup": {
+      "textures": "textures/items/arcade_machines/type_matchup"
+    },
+    "arcade_machine_voltorb_drop": {
+      "textures": "textures/items/arcade_machines/voltorb_drop"
+    },
+    "arcade_machine_evolution_chain": {
+      "textures": "textures/items/arcade_machines/evolution_chain"
+    },
+    "arcade_machine_whos_that_pokemon": {
+      "textures": "textures/items/arcade_machines/whos_that_pokemon"
+    },
+    "prize_shard": {
+      "textures": "textures/items/prize_shard"
+    },
+    "neona_spawn_egg": {
+      "textures": "textures/items/neona_spawn_egg"
+    },
     "yukimara_spawn_egg": {
       "textures": "textures/items/yukimara_spawn_egg"
     },
